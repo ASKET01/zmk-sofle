@@ -54,8 +54,8 @@ layers:
   - {t: /, h: \, s: '?'}
   - LGUI
   - $$mdi:volume-off$$
+  - {t: 'Alt+$$mdi:arrow-left-bold$$', h: F5}
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-space$$', h: '4'}
@@ -63,8 +63,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - layer1
   - $$mdi:apple-keyboard-control$$
-  - {t: 'Alt+$$mdi:arrow-left-bold$$', h: F5}
   - $$mdi:apple-keyboard-option$$
+  - Sft+Gui+$$mdi:arrow-left-bold$$
   layer1:
   - F12
   - F1
@@ -316,8 +316,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F13
+  - F14
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
