@@ -1,15 +1,23 @@
 ---
 include:
+  # NORMAL FIRMWARE (left)
   - board: eyelash_sofle_left
     shield: nice_view
-    cmake-args: -DCONFIG_ZMK_BLE=y -DCONFIG_ZMK_SPLIT_BLE=y -DCONFIG_ZMK_BLE_CLEAR_BONDS_ON_START=y
+    cmake-args: -DCONFIG_ZMK_BLE=y -DCONFIG_ZMK_SPLIT_BLE=y -DCONFIG_ZMK_BLE_CLEAR_BONDS_ON_START=n
     artifact-name: eyelash_sofle_left
 
+  # NORMAL FIRMWARE (right)
   - board: eyelash_sofle_right
     shield: nice_view
     cmake-args: -DCONFIG_ZMK_BLE=y -DCONFIG_ZMK_SPLIT_BLE=y
     artifact-name: eyelash_sofle_right
 
+  # RESET LEFT
   - board: eyelash_sofle_left
     shield: settings_reset
-    artifact-name: settings_reset
+    artifact-name: settings_reset_left
+
+  # RESET RIGHT
+  - board: eyelash_sofle_right
+    shield: settings_reset
+    artifact-name: settings_reset_right
