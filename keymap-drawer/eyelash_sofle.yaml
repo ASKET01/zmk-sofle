@@ -62,7 +62,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - layer1
   - '2'
-  - '3'
+  - '&bl BL_ON'
   - LGUI
   - {t: '$$mdi:backspace$$', type: backspace}
   layer1:
@@ -257,7 +257,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', s: )}
   - {t: '0', s: )}
-  - {t: '0', s: ), type: held}
+  - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '4':
