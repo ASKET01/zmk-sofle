@@ -29,9 +29,9 @@ layers:
   - {t: '[', s: '{'}
   - $$mdi:apple-keyboard-shift$$
   - A
-  - W
-  - E
-  - R
+  - S
+  - D
+  - F
   - G
   - $$mdi:arrow-left-bold$$
   - H
